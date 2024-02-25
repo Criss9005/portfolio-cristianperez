@@ -38,7 +38,7 @@ export default function About() {
         console.log(e)
       })
      
-  }, []);
+  });
 
  
   const updateQueryString = (query) => {
@@ -50,11 +50,11 @@ export default function About() {
     <div>
     <form>
         <input type="text" onChange={(e) => {
-          setSearch(e.target.value)
           updateQueryString(e.target.value)
-        }} name='input' />
+          }} name='input' />
         <button onClick={(e) => {
           handleSearch(e)
+          setSearch(e.target.form.input.value)
           e.target.form.reset()
         }}>Serarch</button>
       </form>
