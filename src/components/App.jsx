@@ -1,10 +1,10 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route  } from "react-router-dom";
 import Movies from "pages/Movies/Movies";
 import NotFound from "pages/NotFound/NotFound";
 import NavBar from "./NavBar/NavBar";
 import MoviesDetails from "pages/MoviesDetails/MoviesDetails";
 import { lazy, Suspense } from "react";
-import { BrowserRouter } from "react-router-dom";
+
 
 
 const Home = lazy(() => import("../pages/Home/Home"));
@@ -14,9 +14,12 @@ const Reviews = lazy(() => import("./Reviews/Reviews"));
 
 export const App = () => {
   
+  if (window.location.pathname === '/goit-react-hw-05-movies') {
+    window.location.assign('/');
+  }
  
   return (
-    <BrowserRouter basename="/">
+   
     <Suspense fallback={ <div>Loading...</div>}>
     <NavBar/>
       <Routes>
@@ -30,6 +33,7 @@ export const App = () => {
         
         </Routes>
       </Suspense>
-      </BrowserRouter>
+  
+     
   );
 };
