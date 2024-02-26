@@ -14,10 +14,7 @@ const Reviews = lazy(() => import("./Reviews/Reviews"));
 
 export const App = () => {
   
-  if (window.location.pathname === '/goit-react-hw-05-movies') {
-    window.location.assign('/');
-  }
- 
+  
   return (
    
     <Suspense fallback={ <div>Loading...</div>}>
