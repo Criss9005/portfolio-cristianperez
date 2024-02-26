@@ -4,15 +4,19 @@ import NotFound from "pages/NotFound/NotFound";
 import NavBar from "./NavBar/NavBar";
 import MoviesDetails from "pages/MoviesDetails/MoviesDetails";
 import { lazy, Suspense } from "react";
+import { BrowserRouter } from "react-router-dom";
+
 
 const Home = lazy(() => import("../pages/Home/Home"));
 const Cast = lazy(() => import("./Cast/Cast"));
 const Reviews = lazy(() => import("./Reviews/Reviews"));
 
+
 export const App = () => {
   
  
   return (
+    <BrowserRouter basename="/">
     <Suspense fallback={ <div>Loading...</div>}>
     <NavBar/>
       <Routes>
@@ -25,6 +29,7 @@ export const App = () => {
         <Route path="*" element={<NotFound />} />
         
         </Routes>
-    </Suspense>
+      </Suspense>
+      </BrowserRouter>
   );
 };
