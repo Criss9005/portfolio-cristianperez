@@ -1,20 +1,20 @@
 import { Routes, Route  } from "react-router-dom";
-import Movies from "pages/Movies/Movies";
 import NotFound from "pages/NotFound/NotFound";
 import NavBar from "./NavBar/NavBar";
-import MoviesDetails from "pages/MoviesDetails/MoviesDetails";
 import { lazy, Suspense } from "react";
 
 
 
 const Home = lazy(() => import("../pages/Home/Home"));
+const Movies = lazy(() => import("../pages/Movies/Movies"));
+const MoviesDetails = lazy(() => import("../pages/MoviesDetails/MoviesDetails"));
 const Cast = lazy(() => import("./Cast/Cast"));
 const Reviews = lazy(() => import("./Reviews/Reviews"));
 
 
 export const App = () => {
-  
-  
+ 
+ 
   return (
    
     <Suspense fallback={ <div>Loading...</div>}>
@@ -28,8 +28,8 @@ export const App = () => {
         </Route>
         <Route path="*" element={<NotFound />} />
         
-        </Routes>
-      </Suspense>
+      </Routes>
+    </Suspense>
   
      
   );

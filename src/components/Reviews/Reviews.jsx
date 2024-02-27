@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 
 
@@ -31,6 +31,7 @@ export default function Reviews() {
     
   return (
     <section>
+      
           <ul>{ (reviews.length ) ? reviews.map((rev) =>( 
           <li key={rev.id}>
             <p>{ rev.author}:</p>
@@ -38,7 +39,8 @@ export default function Reviews() {
           </li>
         )): <p> We don't have any reviews for thie movie</p>}
               
-          </ul>  
+        </ul>  
+       
     </section>
   )
 }
