@@ -14,7 +14,6 @@ const Reviews = lazy(() => import("./Reviews/Reviews"));
 
 export const App = () => {
  
- 
   return (
    
     <Suspense fallback={ <div>Loading...</div>}>
