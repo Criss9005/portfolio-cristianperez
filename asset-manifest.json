@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-cristianperez/static/css/main.481a15a0.css",
-    "main.js": "/portfolio-cristianperez/static/js/main.dc30a721.js",
-    "static/js/544.c82e5d01.chunk.js": "/portfolio-cristianperez/static/js/544.c82e5d01.chunk.js",
+    "main.js": "/portfolio-cristianperez/static/js/main.aa91657d.js",
+    "static/js/544.5490e127.chunk.js": "/portfolio-cristianperez/static/js/544.5490e127.chunk.js",
     "static/js/278.bb3ea5c4.chunk.js": "/portfolio-cristianperez/static/js/278.bb3ea5c4.chunk.js",
     "static/css/961.006323f9.chunk.css": "/portfolio-cristianperez/static/css/961.006323f9.chunk.css",
     "static/js/961.7fa8dd40.chunk.js": "/portfolio-cristianperez/static/js/961.7fa8dd40.chunk.js",
@@ -11,8 +11,8 @@
     "static/js/324.5284b970.chunk.js": "/portfolio-cristianperez/static/js/324.5284b970.chunk.js",
     "index.html": "/portfolio-cristianperez/index.html",
     "main.481a15a0.css.map": "/portfolio-cristianperez/static/css/main.481a15a0.css.map",
-    "main.dc30a721.js.map": "/portfolio-cristianperez/static/js/main.dc30a721.js.map",
-    "544.c82e5d01.chunk.js.map": "/portfolio-cristianperez/static/js/544.c82e5d01.chunk.js.map",
+    "main.aa91657d.js.map": "/portfolio-cristianperez/static/js/main.aa91657d.js.map",
+    "544.5490e127.chunk.js.map": "/portfolio-cristianperez/static/js/544.5490e127.chunk.js.map",
     "278.bb3ea5c4.chunk.js.map": "/portfolio-cristianperez/static/js/278.bb3ea5c4.chunk.js.map",
     "961.006323f9.chunk.css.map": "/portfolio-cristianperez/static/css/961.006323f9.chunk.css.map",
     "961.7fa8dd40.chunk.js.map": "/portfolio-cristianperez/static/js/961.7fa8dd40.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.481a15a0.css",
-    "static/js/main.dc30a721.js"
+    "static/js/main.aa91657d.js"
   ]
 }
