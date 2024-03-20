@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 25px 12px 10px 12px #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+.svg {
+    fill: white;
+}
+.svg:hover{
+    fill: #2196F3;
+}

@@ -1,8 +1,19 @@
 .nav{
-    display: flex;
-    gap: 15px;
     font-size: 20px;
     padding: 20px;
     margin-bottom: 15px;
-    box-shadow: 0px 12px 10px -15px #111;
+    box-shadow: 0px 12px 10px -12px #ffffff;
+   
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mobile{
+    padding-right: 20px;
 }

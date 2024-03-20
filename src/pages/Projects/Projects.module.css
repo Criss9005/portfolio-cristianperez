@@ -1,0 +1,78 @@
+.cards {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.cards__overlay {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    margin-top: -10px;
+
+}
+
+.cards__item {
+    border: 1px solid #EEEEEE;
+    flex-wrap: wrap;
+}
+
+
+
+.cards__item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cards__item:hover .cards__overlay {
+    transform: translateY(0);
+}
+
+.cards__item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.cards__information {
+    color: #212121;
+}
+
+.cards__title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+
+.cards__link {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.cards__img {
+    width: 300px;
+    height: 250px;
+}
+
+.mainContainer{
+    padding: 50px;
+}
