@@ -14,12 +14,12 @@ function Home() {
         <ul className={style.list }>
             <li className={style.text}>
               <h3>Perfil Profesional:</h3>
-            <p>Soy un profesional en ingenieria con mas de 8 años de experiencia en el sector Comercial. He trabajado en importantes empresas multinacionales como
-                lo son Coca Cola y Productos Ramo, liderando equipos de alto rendimiento y desempeñando diversos roles en el ambito empresarial.
-              Mi liderazgo se ha centrado en garantizar la satisfacion del cliente, el desarrollo de equipos y una colaboracion efectiva en el
-              entorno laboral. Mi enfoque en la mejora continua y mi capacidad de construir relaciones solidas han sido fundamentales para fomentar
-              la colaboracion y el rendimiento del equipo.</p>
-            <p>Graduado en Ingenieria Electronica con conocimientos en programacion de sistemas con capacidad de diseñar, elaborar y coordinar estrategias y procedimientos ágiles y oportunos,
+            <p>Soy un profesional en ingeniería con mas de 8 años de experiencia en el sector Comercial. He trabajado en importantes empresas multinacionales como
+                lo son Coca Cola y Productos Ramo, liderando equipos de alto rendimiento y desempeñando diversos roles en el ámbito empresarial.
+              Mi liderazgo se ha centrado en garantizar la satisfación del cliente, el desarrollo de equipos y una colaboracion efectiva en el
+              entorno laboral. Mi enfoque en la mejora continua y mi capacidad de construir relaciones sólidas han sido fundamentales para fomentar
+              la colaboración y el rendimiento del equipo.</p>
+            <p>Graduado en Ingeniería Electrónica con conocimientos en programación de sistemas con capacidad de diseñar, elaborar y coordinar estrategias y procedimientos ágiles y oportunos,
               cumpliendo los objetivos propuestos. Poseo muy buen nivel en el idioma inglés que fortalecen mis habilidades en el campo laboral.
               Me caracterizo por ser disciplinado, responsable y organizado con un gran sentido del respeto y la ética, para velar por el
               crecimiento personal y de la empresa.
@@ -52,10 +52,6 @@ function Home() {
                     <td><Star/><Star/><Star/><Star/><VoidStar/></td>
                   </tr>
                   <tr>
-                    <td>Bases de datos</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-                  <tr>
                     <td>Desarrollo de software</td>
                     <td><Star/><Star/><Star/><Star/><Star/></td>
                   </tr>
@@ -76,7 +72,7 @@ function Home() {
                     <td><Star/><Star/><Star/><Star/><Star/></td>
                   </tr>
                   <tr>
-                    <td>Ingles</td>
+                    <td>Inglés</td>
                     <td><Star/><Star/><Star/><Star/><VoidStar/></td>
                   </tr>
               
@@ -86,7 +82,7 @@ function Home() {
             
             </li>
             <div>
-              <h3>Tecnologias Trabajadas</h3>
+              <h3>Tecnologías Trabajadas</h3>
               <p className={style.tecnology }>React | Node | JavaScript | CSS | HTML | GitHub | SASS | Trello | MaterialUi | TailWind |Redux | Microsoft Office Package  | C++ | JSON </p>
               
               
