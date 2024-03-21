@@ -11,6 +11,13 @@ import blog from '../../images/blog.jpg'
 
 
 const info = [
+   {
+    id: 7,
+    url: 'https://criss9005.github.io/filmoteka/',
+    description: 'Buscador de peliculas, opciones de agregar a la libreria watched and queue movies, con ventana modal de la informacion de cada pelicula.',
+    img: filmoteka,
+    name:'Filmoteka'
+  },
   {
     id: 1,
     url: 'https://criss9005.github.io/goit-react-hw-08-phonebook/',
@@ -61,13 +68,7 @@ const info = [
     name:'Diseño Adaptable'
   }
 ,
-  {
-    id: 7,
-    url: 'https://criss9005.github.io/filmoteka/',
-    description: 'Buscador de peliculas, opciones de agregar a la libreria watched and queue movies, con ventana modal de la informacion de cada pelicula.',
-    img: filmoteka,
-    name:'Filmoteka'
-  },
+ 
    {
     id: 8,
     url: 'https://cristian-perez-naizzir-1102833522-5.blogspot.com/',
