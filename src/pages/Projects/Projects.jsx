@@ -14,7 +14,7 @@ const info = [
   {
     id: 1,
     url: 'https://criss9005.github.io/goit-react-hw-08-phonebook/',
-    description: 'Registro e inicio de sesion de Usuarios para tener una libreta de contactos privada.',
+    description: 'Registro e inicio de sesion de Usuarios para tener una libreta de contactos privada. /*Developing...*/',
     img: phone,
     name:'Phonebook'
   },
