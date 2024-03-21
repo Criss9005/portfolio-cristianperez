@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-cristianperez/static/css/main.27d5232b.css",
-    "main.js": "/portfolio-cristianperez/static/js/main.71a7fb8d.js",
+    "main.js": "/portfolio-cristianperez/static/js/main.3c579e8c.js",
     "static/css/975.57b45a54.chunk.css": "/portfolio-cristianperez/static/css/975.57b45a54.chunk.css",
     "static/js/975.95a478ac.chunk.js": "/portfolio-cristianperez/static/js/975.95a478ac.chunk.js",
     "static/media/background7.jpg": "/portfolio-cristianperez/static/media/background7.92c9fb7372440b5bec53.jpg",
@@ -16,12 +16,12 @@
     "static/media/color.png": "/portfolio-cristianperez/static/media/color.5cd089006347fb8c5416.png",
     "index.html": "/portfolio-cristianperez/index.html",
     "main.27d5232b.css.map": "/portfolio-cristianperez/static/css/main.27d5232b.css.map",
-    "main.71a7fb8d.js.map": "/portfolio-cristianperez/static/js/main.71a7fb8d.js.map",
+    "main.3c579e8c.js.map": "/portfolio-cristianperez/static/js/main.3c579e8c.js.map",
     "975.57b45a54.chunk.css.map": "/portfolio-cristianperez/static/css/975.57b45a54.chunk.css.map",
     "975.95a478ac.chunk.js.map": "/portfolio-cristianperez/static/js/975.95a478ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27d5232b.css",
-    "static/js/main.71a7fb8d.js"
+    "static/js/main.3c579e8c.js"
   ]
 }
