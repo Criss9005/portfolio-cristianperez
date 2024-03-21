@@ -14,14 +14,13 @@ function Home() {
         <ul className={style.list }>
             <li className={style.text}>
               <h3>Perfil Profesional:</h3>
-            <p>Soy un profesional con mas de 8 años de experiencia en el sector Comercial, he trabajado en importantes empresas multinacionales como
-                lo son:  Coca Cola y Productos Ramo, liderando equipos de alto rendimiento y desempeñando diversos roles en el ambito empresarial.
+            <p>Soy un profesional en ingenieria con mas de 8 años de experiencia en el sector Comercial. He trabajado en importantes empresas multinacionales como
+                lo son Coca Cola y Productos Ramo, liderando equipos de alto rendimiento y desempeñando diversos roles en el ambito empresarial.
               Mi liderazgo se ha centrado en garantizar la satisfacion del cliente, el desarrollo de equipos y una colaboracion efectiva en el
               entorno laboral. Mi enfoque en la mejora continua y mi capacidad de construir relaciones solidas han sido fundamentales para fomentar
               la colaboracion y el rendimiento del equipo.</p>
-            <p>Soy Ingeniero Electrónico con capacidad de diseñar, elaborar y coordinar estrategias y procedimientos ágiles y oportunos,
-              cumpliendo los objetivos propuestos. Poseo muy buen nivel en el idioma inglés y gran destreza en programación de sistemas
-              que fortalecen mis habilidades en el campo laboral.
+            <p>Graduado en Ingenieria Electronica con conocimientos en programacion de sistemas con capacidad de diseñar, elaborar y coordinar estrategias y procedimientos ágiles y oportunos,
+              cumpliendo los objetivos propuestos. Poseo muy buen nivel en el idioma inglés que fortalecen mis habilidades en el campo laboral.
               Me caracterizo por ser disciplinado, responsable y organizado con un gran sentido del respeto y la ética, para velar por el
               crecimiento personal y de la empresa.
             </p>
@@ -30,7 +29,7 @@ function Home() {
         <li>
 
           <div className={ style.skills} >
-                <h3>Skills</h3>
+                <h3>Habilidades</h3>
                 <table style={{width:500, paddingLeft:30}}>
                   <tr>
                     <td>Algoritmos y estructuras de datos</td>
@@ -38,11 +37,11 @@ function Home() {
                   </tr>
                   <tr>
                     <td>Flexibilidad y adaptabilidad </td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
+                    <td><Star/><Star/><Star/><Star/><Star/></td>
                   </tr>
                   <tr>
                     <td>Habilidad para aprender</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
+                    <td><Star/><Star/><Star/><Star/><Star/></td>
                   </tr>
                   <tr>
                     <td>Trabajo en equipo </td>
@@ -58,7 +57,7 @@ function Home() {
                   </tr>
                   <tr>
                     <td>Desarrollo de software</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
+                    <td><Star/><Star/><Star/><Star/><Star/></td>
                   </tr>
                   <tr>
                     <td>Diagnóstico de fallas</td>

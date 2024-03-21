@@ -17,10 +17,10 @@ const StyledLink = styled(NavLink)`
 export default function NavBar() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.list }>
+      <ul className={styles.list}>
         <li>
-            <StyledLink   to="/">Home</StyledLink >
-            <StyledLink to="/projects">Projects</StyledLink >
+            <StyledLink to="/">Home</StyledLink >
+            <StyledLink to="/projects">Proyectos</StyledLink >
         </li>
         <li >
             <a href="https://wa.me/573024160441" className={ styles.mobile}>
