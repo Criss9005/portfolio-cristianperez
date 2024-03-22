@@ -1,12 +1,13 @@
 import React from 'react'
 import style from './Projects.module.css'
-import phone from '../../images/phone.jpg'
+import phone from '../../images/phone2.jpg'
 import trending from '../../images/trending.jpg'
 import collage from '../../images/collage.jpg'
+import collage2 from '../../images/pixabay.jpg'
 import cats from '../../images/Cats.jpg'
 import color from '../../images/color.png'
 import adaptable from '../../images/adaptable.jpg'
-import filmoteka from '../../images/filmoteka.jpg'
+import filmoteka from '../../images/filmoteka2.jpg'
 import blog from '../../images/blog.jpg'
 
 
@@ -21,7 +22,7 @@ const info = [
   {
     id: 2,
     url: 'https://criss9005.github.io/goit-react-hw-08-phonebook/',
-    description: 'Registro e inicio de sesion de Usuarios para tener una libreta de contactos privada. /*Developing...*/',
+    description: 'Registro e inicio de sesion de Usuarios para tener una libreta de contactos privada.',
     img: phone,
     name:'Phonebook'
   },
@@ -36,7 +37,7 @@ const info = [
     id: 4,
     url: 'https://criss9005.github.io/goit-react-hw-04-image-finder/',
     description: 'Búsqueda y almacenamiento de imagenes trabajando con el servicio público de búsqueda de imágenes Pixabay, con modal incluido.',
-    img: collage,
+    img: collage2,
     name:'Image Finder'
   },
   {
