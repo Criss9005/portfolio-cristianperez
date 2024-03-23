@@ -16,7 +16,8 @@
     text-align: justify;
     flex-wrap: wrap;
     gap: 30px;
-    width: 50%;
+    max-width: 70%;
+    justify-content: center;
 }
 
 .section{
@@ -40,13 +41,25 @@
     font-size: 30px;
 }
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex-wrap: nowrap;
-}
-
 .tecnology{
     text-align: center;
 }
+
+.box{
+    border: 1px solid white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px 20px;
+    list-style: square inside;
+    
+}
+
+.skills{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+

@@ -1,8 +1,7 @@
 import React from 'react'
 import profile from '../../images/profile.jpg'
 import style from './Home.module.css'
-import Star from 'images/Star'
-import VoidStar from 'images/VoidStar'
+
 
 function Home() {
   return (
@@ -26,67 +25,50 @@ function Home() {
             </p>
 
             </li>   
-        <li>
+            <li className={ style.skills}>
 
-          <div className={ style.skills} >
-                <h3>Habilidades</h3>
-                <table style={{width:500, paddingLeft:30}}>
-                  <tr>
-                    <td>Algoritmos y estructuras de datos</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-                  <tr>
-                    <td>Flexibilidad y adaptabilidad </td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Habilidad para aprender</td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Trabajo en equipo </td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-                  <tr>
-                    <td>Análisis de requisitos Bases de datos</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-                  <tr>
-                    <td>Desarrollo de software</td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Diagnóstico de fallas</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-                  <tr>
-                    <td>Excelente capacidad de análisis</td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Resolución de problemas</td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Resiliencia</td>
-                    <td><Star/><Star/><Star/><Star/><Star/></td>
-                  </tr>
-                  <tr>
-                    <td>Inglés</td>
-                    <td><Star/><Star/><Star/><Star/><VoidStar/></td>
-                  </tr>
-              
-                </table>
+              <div className={ style.outbox}>
+                <h3>Habilidades Blandas</h3>
+                <ul className={style.box}>
+                  <li>Algoritmos y estructuras de datos</li>
+                  <li>Flexibilidad y adaptabilidad	</li>
+                  <li>Habilidad para aprender	</li>
+                  <li>Trabajo en equipo	</li>
+                  <li>Análisis de requisitos Bases de datos	</li>
+                  <li>Desarrollo de software</li>
+                  <li>Diagnóstico de fallas	</li>
+                  <li>Excelente capacidad de análisis	</li>
+                  <li>Resolución de problemas</li>
+                  <li>Resiliencia	</li>
+                  <li>Inglés</li>
+
+                </ul>
+
+              </div>
+
+
+                <div >
+                <h3>Habilidades Técnicas</h3>
+
+                <ul className={style.box}>
+                  <li>CSS3</li>
+                  <li>HTML5</li>
+                  <li>SAAS</li>
+                  <li>React</li>
+                  <li>React Redux</li>
+                  <li>REST API</li>
+                  <li>Node.js</li>
+                  <li>GitHub</li>
+                  <li>Trello</li>
+                  <li>MaterialUi</li>
+                  <li>C++</li>
+
+                </ul>
+                </div>
             
-          </div>
+          
             
-            </li>
-            <div>
-              <h3>Tecnologías Trabajadas</h3>
-              <p className={style.tecnology }>React | Node | JavaScript | CSS | HTML | GitHub | SASS | Trello | MaterialUi | TailWind |Redux | Microsoft Office Package  | C++ | JSON </p>
-              
-              
-            </div>
+            </li>          
           
         </ul>
         </li>
