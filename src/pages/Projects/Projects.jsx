@@ -9,6 +9,7 @@ import color from '../../images/color.png'
 import adaptable from '../../images/adaptable.jpg'
 import filmoteka from '../../images/filmoteka2.jpg'
 import blog from '../../images/blog.jpg'
+import feedback from '../../images/feedback.jpg'
 
 
 const info = [
@@ -25,6 +26,13 @@ const info = [
     description: 'Registro e inicio de sesion de Usuarios para tener una libreta de contactos privada.',
     img: phone,
     name:'Phonebook'
+  },
+  {
+    id: 10,
+    url: 'https://criss9005.github.io/goit-react-hw-02-feedback/',
+    description: 'Aplicación que mide el nivel de retroalimentacion dado por usuarios por algun tipo de servicio',
+    img: feedback,
+    name:'Feedback'
   },
   {
     id: 3,
