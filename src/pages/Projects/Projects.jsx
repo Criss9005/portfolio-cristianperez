@@ -2,17 +2,21 @@ import React from 'react'
 import style from './Projects.module.css'
 import phone from '../../images/phone2.jpg'
 import trending from '../../images/trending.jpg'
-import collage from '../../images/collage.jpg'
 import collage2 from '../../images/pixabay.jpg'
 import cats from '../../images/Cats.jpg'
-import color from '../../images/color.png'
 import adaptable from '../../images/adaptable.jpg'
 import filmoteka from '../../images/filmoteka2.jpg'
-import blog from '../../images/blog.jpg'
 import feedback from '../../images/feedback.jpg'
-
+import slimmom from '../../images/slimmom.png'
 
 const info = [
+  {
+    id: 10,
+    url: 'https://criss9005.github.io/DevNest-Front/',
+    description: 'Pagina para registrar calorias diarias y realizar seguimiento mediante base de datos. Diseño adaptable',
+    img: slimmom,
+    name:'SlimMom'
+  },
    {
     id: 1,
     url: 'https://criss9005.github.io/filmoteka/',
@@ -49,45 +53,19 @@ const info = [
     name:'Image Finder'
   },
   {
-    id: 5,
-    url: 'https://criss9005.github.io/goit-js-hw-11/',
-    description: 'Búsqueda de imagenes Pixabay, con Simpleligthbox, implementacion de scroll infinito.',
-    img: collage,
-    name:'Image Finder / Infinite Scroll '
-  },
-  {
     id: 6,
     url: 'https://criss9005.github.io/goit-js-hw-10/',
     description: 'Buscador de razas de gatos, descripcion y temperamento usando JavaScript.',
     img: cats,
     name:'Cat breed finder'
   },
-  {
-    id: 7,
-    url: 'https://criss9005.github.io/goit-js-hw-09/',
-    description: 'Cambiador de color aleatorio, contador de cuenta regresiva y generador de promesas.',
-    img: color,
-    name:'JavaScript'
-  },
-  {
+   {
     id: 8,
     url: 'https://criss9005.github.io/goit-markup-hw-08/',
     description: 'Front de pagina Web con diseño adaptable (Mobile first), Aplicando metodologia BEM, utilizacion de SVG y ventana Modal.',
     img: adaptable,
     name:'Diseño Adaptable'
   }
-,
- 
-   {
-    id: 9,
-    url: 'https://cristian-perez-naizzir-1102833522-5.blogspot.com/',
-    description: 'Primeros pasos realizando un Blog de tecnologia',
-    img: blog,
-    name:'Primeros Pasos'
-  }
-
-
-  
 ]
 
 

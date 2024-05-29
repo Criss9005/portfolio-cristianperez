@@ -2,8 +2,11 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://Criss9005.github.io/portfolio-cristianperez/",
+  "homepage": "https://Criss9005.github.io/portfolio-cristianperez/",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.16",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
