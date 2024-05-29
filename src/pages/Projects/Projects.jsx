@@ -8,6 +8,7 @@ import adaptable from '../../images/adaptable.jpg'
 import filmoteka from '../../images/filmoteka2.jpg'
 import feedback from '../../images/feedback.jpg'
 import slimmom from '../../images/slimmom.png'
+import icecream from '../../images/icecream2.png'
 
 const info = [
   {
@@ -65,7 +66,16 @@ const info = [
     description: 'Front de pagina Web con diseño adaptable (Mobile first), Aplicando metodologia BEM, utilizacion de SVG y ventana Modal.',
     img: adaptable,
     name:'Diseño Adaptable'
+  },
+    {
+    id: 9,
+    url: 'https://michaeling10.github.io/IceCreamProject/index.html',
+    description: 'Front de pagina Web con diseño adaptable (Mobile first), Aplicando metodologia BEM con menu mobile.',
+    img: icecream,
+    name:'IceCream'
   }
+   
+   
 ]
 
 
