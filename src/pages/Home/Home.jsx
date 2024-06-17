@@ -9,10 +9,21 @@ function Home() {
      <ul className={style.section}>
         <li className={ style.image}>
         <img src={profile} alt="Cristian Perez profile" className={style.border} />
-          <h2 className={style.profile }>Ing. Cristian Pérez Naizzir</h2>
+          <h2 className={style.profile }>Cristian Pérez Naizzir</h2>
         <ul className={style.list }>
             <li className={style.text}>
-              <h3>Perfil Profesional:</h3>
+              <h3>Professional profile:</h3>
+            <p>I am an engineer with more than 8 years of experience in the Commercial sector. I have worked in important multinational companies such as
+Coca Cola and Productos Ramo, leading high-performance teams and performing various roles in the business field.
+My leadership has focused on ensuring customer satisfaction, team development and effective collaboration in the
+work environment. My focus on continuous improvement and my ability to build strong relationships have been instrumental in fostering
+team collaboration and performance.</p>
+            <p>Graduated in Electronic Engineering with knowledge in systems programming with the ability to design, develop and coordinate agile and timely strategies and procedures,
+meeting the proposed objectives. I have a very good level of English that strengthens my skills in the work field.
+I am characterized by being disciplined, responsible and organized with a great sense of respect and ethics, to ensure personal and company growth..
+              </p>
+              
+            {/*   <h3>Perfil Profesional:</h3>
             <p>Soy un profesional en ingeniería con mas de 8 años de experiencia en el sector Comercial. He trabajado en importantes empresas multinacionales como
                 lo son Coca Cola y Productos Ramo, liderando equipos de alto rendimiento y desempeñando diversos roles en el ámbito empresarial.
               Mi liderazgo se ha centrado en garantizar la satisfación del cliente, el desarrollo de equipos y una colaboracion efectiva en el
@@ -22,25 +33,25 @@ function Home() {
               cumpliendo los objetivos propuestos. Poseo muy buen nivel en el idioma inglés que fortalecen mis habilidades en el campo laboral.
               Me caracterizo por ser disciplinado, responsable y organizado con un gran sentido del respeto y la ética, para velar por el
               crecimiento personal y de la empresa.
-            </p>
+            </p> */}
 
             </li>   
             <li className={ style.skills}>
 
               <div className={ style.outbox}>
-                <h3>Habilidades Blandas</h3>
+                <h3>Soft Habilities</h3>
                 <ul className={style.box}>
-                  <li>Algoritmos y estructuras de datos</li>
-                  <li>Flexibilidad y adaptabilidad	</li>
-                  <li>Habilidad para aprender	</li>
-                  <li>Trabajo en equipo	</li>
-                  <li>Análisis de requisitos Bases de datos	</li>
-                  <li>Desarrollo de software</li>
-                  <li>Diagnóstico de fallas	</li>
-                  <li>Excelente capacidad de análisis	</li>
-                  <li>Resolución de problemas</li>
-                  <li>Resiliencia	</li>
-                  <li>Inglés</li>
+                    <li>Algorithms and data structures</li>
+                    <li>Flexibility and adaptability </li>
+                    <li>Ability to learn </li>
+                    <li>Teamwork </li>
+                    <li>Requirements analysis Databases </li>
+                    <li>Software development</li>
+                    <li>Fault diagnosis </li>
+                    <li>Excellent analytical skills </li>
+                    <li>Problem solving</li>
+                    <li>Resilience </li>
+                    <li>English</li>
 
                 </ul>
 
@@ -48,7 +59,7 @@ function Home() {
 
 
                 <div >
-                <h3>Habilidades Técnicas</h3>
+                <h3>Skills</h3>
 
                 <ul className={style.box}>
                   <li>CSS3</li>

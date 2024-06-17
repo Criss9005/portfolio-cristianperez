@@ -24,7 +24,7 @@ export default function NavBar() {
       <ul className={styles.list}>
         <li>
             <StyledLink to="/">Home</StyledLink >
-            <StyledLink to="/projects">Proyectos</StyledLink >
+            <StyledLink to="/projects">Projects</StyledLink >
         </li>
         <li >
             <a href="https://wa.me/573024160441" className={ styles.mobile}>
