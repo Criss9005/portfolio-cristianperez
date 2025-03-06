@@ -39,7 +39,7 @@ I am characterized by being disciplined, responsible and organized with a great 
             <li className={ style.skills}>
 
               <div className={ style.outbox}>
-                <h3>Soft Habilities</h3>
+                <h3>Soft Skills</h3>
                 <ul className={style.box}>
                     <li>Algorithms and data structures</li>
                     <li>Flexibility and adaptability </li>

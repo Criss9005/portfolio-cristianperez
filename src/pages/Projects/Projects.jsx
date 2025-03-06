@@ -6,7 +6,6 @@ import collage2 from '../../images/pixabay.jpg'
 import cats from '../../images/Cats.jpg'
 import adaptable from '../../images/adaptable.jpg'
 import filmoteka from '../../images/filmoteka2.jpg'
-import feedback from '../../images/feedback.jpg'
 import slimmom from '../../images/slimmom.png'
 import icecream from '../../images/icecream2.png'
 
@@ -35,15 +34,7 @@ const info = [
     img: phone,
     name:'Phonebook'
   },
-  {
-    id: 10,
-    url: 'https://criss9005.github.io/goit-react-hw-02-feedback/',
-    descriptionES: 'Aplicación que mide el nivel de retroalimentacion dado por usuarios por algun tipo de servicio',
-    description: "Application that measures the level of feedback given by users for some type of service",
-    img: feedback,
-    name:'Feedback'
-  },
-  {
+   {
     id: 3,
     url: 'https://criss9005.github.io/goit-react-hw-05-movies',
     descriptionES: 'Aplicación de búsqueda y almacenamiento de peliculas trabajando con la API themoviedb.org',
